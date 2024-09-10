@@ -84,7 +84,7 @@ export const Quotes = () => {
               animate={quotesControls}
               transition={{ duration: 0.5, delay: 0.25}}>
                
-              <Planetas />
+              {/*<Planetas />*/}
 
             
 

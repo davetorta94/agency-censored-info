@@ -8,8 +8,8 @@ import '../../styles.css'
 export const MainPage = () => {
     return (
         <>
-            <Navbar />
-            <ParticleBackground />
+                <Navbar />
+                <ParticleBackground />
                 <Intro />
                 <Quotes />
             
