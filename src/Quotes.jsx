@@ -59,7 +59,7 @@ export const Quotes = () => {
                 </div>
           </motion.div>
 
-          <motion.div
+          {/*<motion.div
             className="row justify-content-start mt-5 pb-2 text-light"
             variants={{
                 hidden: { opacity: 0},
@@ -72,7 +72,7 @@ export const Quotes = () => {
                 <a href={'contact'} className="mt-1 boton">CONTÁCTANOS</a>
                 </div>
                 
-          </motion.div>
+          </motion.div>*/}
 
           <motion.div
             className="row d-flex justify-content-center mt-5 pb-2 text-light"

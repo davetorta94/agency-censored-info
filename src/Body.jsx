@@ -34,16 +34,6 @@ export const Body = () => {
               <div className="col-lg-3 col-md-10 text-light body-text">
                 <p>Somos pioneros en impulsar marcas hacia el futuro y convertirlas en estrellas brillantes en el panorama digital actual.</p>
               </div>
-            
-              {/*<Parallax translateX={['0px', '0px']}
-                  scale={[1, 1]}
-                  rotate={[0,360]}
-                  easing="easeInQuad">
-                <div className=' col-lg-4 col-md-10 astronauta'>
-                    <img src={astronauta} alt="astronauta flotando en el espacio" />
-                </div>
-              </Parallax>*/}
-
               
               
 

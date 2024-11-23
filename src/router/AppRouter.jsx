@@ -35,12 +35,7 @@ export const AppRouter = () => {
     const handleSubmit = (e) =>{
         e.preventDefault();
         setSubmitted(true);
-        startContact({name, email, number,method});
-        
-        
-        
-        
-        
+        startContact({name, email, number,method});  
         
     }
 
@@ -48,7 +43,7 @@ export const AppRouter = () => {
     <>
        <Routes>
         <Route path='/' element={<MainPage/>}/>
-        <Route path='contact' element={<ContactPage handleSubmit={handleSubmit} 
+        <Route path='/contact' element={<ContactPage handleSubmit={handleSubmit} 
                                                     onInputChange={onInputChange} 
                                                     name={name} 
                                                     email={email} 
@@ -56,7 +51,7 @@ export const AppRouter = () => {
                                                     method={method}
                                                     />}
                                                     />
-        <Route path='contact/resp=ok' element={<LandinPage />} />                                            
+        <Route path='/contact/resp=ok' element={<LandinPage />} />                                            
         <Route path='/*' element={<MainPage/>} />
         <Route path='planeta' element={<Planetas />} />
        </Routes>
